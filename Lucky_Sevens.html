@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!--
+    Name: Tom Carlson
+    Date Created: 10/18/19
+    Most recent revision: font family: arial (no option for comic sans)
+  -->
+<html>
+
+<head>
+	<title>Lucky Sevens</title>
+
+	<script type="text/javascript" src="lucky-sevens.js"></script>
+
+	<style>
+			body {font-family: arial;}
+
+			table {
+				border: 2px solid;
+				border-collapse: collapse;
+			}
+			tr, td {
+				border: 1px solid;
+				border-collapse: collapse;
+			}
+			button {
+				background-color: white
+			}
+			hr {
+					background-color: black;
+					height: 1px;
+			}
+		</style>
+
+</head>
+
+<body>
+	<center>
+
+		<h1>Lucky Sevens</h1>
+
+		<form name="luckySevens" onsubmit=" return play();">
+			<div class="input-group"> Starting Bet:
+				<input type="number" id="bet" class="form-control" placeholder="$0.00">
+			</div><br>
+				<button type="submit" id="submitButton">Play</button>
+			</div>
+		</form><br>
+
+
+		<table id="results" class="table" style="display:none;">
+			<hr />
+			  <thead>
+              <caption><h2>Results</h2></caption>
+        </thead>
+        <tbody>
+            <tr bgcolor="#cccccc">
+                <td>Starting Bet($)</td>
+                <td>
+									<span id="start">
+									</span>
+
+								</td>
+            </tr>
+            <tr bgcolor="#e6e6e6">
+                <td>Total Rolls Before Going Broke</td>
+                <td>
+									<span id="rollsNum">
+									</span>
+								</td>
+            </tr>
+            <tr bgcolor="white">
+                <td>Highest Amount Won($)</td>
+                <td>
+									<span id="max">
+									</span>
+								</td>
+            </tr>
+            <tr bgcolor="#e6e6e6">
+                <td>Roll count at Hightest Amount Won
+								</td>
+                <td>
+									<span id="rollsAtMax">
+									</span>
+								</td>
+            </tr>
+        </tbody>
+    </table>
+
+	</div>
+
+
+</center>
+</body>
+</html>
