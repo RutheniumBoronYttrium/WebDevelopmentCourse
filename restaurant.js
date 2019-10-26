@@ -36,4 +36,4 @@ function validateForm() {
                 msgArray.push(validMsg);
             }
             alert(msgArray.join(" "));
-        }
+    }
