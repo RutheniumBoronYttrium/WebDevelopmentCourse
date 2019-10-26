@@ -14,7 +14,7 @@ function validateForm() {
 
 
 //(function() {
-//var name = document.forms["RegForm"]["Name"];
+// var name = document.forms["RegForm"]["Name"];
 
 //if (name.value == "")
 //    {
