@@ -1,6 +1,6 @@
 //Name:Tom Carlson
 //DateCreated: 10/18/19
-//Most Recent Revision: Error Message
+//Most Recent Revision: Error Messages
 
 function rollDice() {
 	return Math.floor(Math.random() * 6) + 1;
